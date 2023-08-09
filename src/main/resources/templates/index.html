@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link th:href="@{/css/index.css}" rel="stylesheet" >
+<title>Index</title>
+</head>
+<body>
+  <div class="header">
+    <h1>Welcome to Techi Learning App</h1>
+    <p>Explore our courses and start learning today!</p>
+  </div>
+  <div class="courses">
+    <h2>Courses Offered:</h2>
+    <div class="course-card">
+      <h3>MCP-1  Full Stack Module</h3>
+      <p> Java, Python, Web, Database, Data Structure, Algorithm and React JS
+        Best Full-Stack Development Training Institute in Bangalore
+        This career path is carefully designed keeping in mind the 
+        individual roles a fresher would want to achieve to get a 
+        job as a programmer or a full stack developer or a fron
+        t-end developer with testing skills basically you will be
+         a multifaceted Techie.</p>
+    </div>
+    <div class="course-card">
+      <h3>MCP-2  Testing Module</h3>
+      <p>Manual and Automation Testing
+        Best Software Testing Institute in Bangalore
+        This career path is carefully designed keeping in mind the individual roles a fresher
+         would want to achieve to get a job as a Test Engineer( Manual, Automation – Selenium Tool and API Testing)</p>
+    </div>
+  </div>
+  <div class="cta-buttons">
+    <a th:href="@{/nav/login}" class="btn">Login</a>
+    <a th:href="@{/nav/register}" class="btn">Register</a>
+  </div>
+</body>
+</html>
